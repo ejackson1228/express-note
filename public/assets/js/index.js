@@ -1,3 +1,5 @@
+const { response } = require("express");
+
 let noteTitle;
 let noteText;
 let saveNoteBtn;
@@ -31,6 +33,17 @@ const getNotes = () =>
     headers: {
       'Content-Type': 'application/json'
     }
+    .then(response =>  {
+      if(!response.ok) {
+        return alert('Error: ' + response.statusText);
+      } else {
+        return response.json();
+      }
+    })
+    .then(notesData => {
+      console.log(notesData);
+      renderNoteList(notesData);
+    })
   });
 
 const saveNote = note =>
