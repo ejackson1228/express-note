@@ -5,7 +5,6 @@ const path = require('path');
 const { notes } = require('./db/db.json');
 const apiRoutes = require('./routes/apiRoutes.js');
 const htmlRoutes = require('./routes/htmlRoutes.js');
-
 const uuid = require('uuid');
 
 const app = express();

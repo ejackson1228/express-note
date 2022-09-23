@@ -22,9 +22,9 @@ router.get('/notes/:id', (req, res) => {
 router.post('/notes', (req, res) => { //post request for new note
     req.body.id = uuidv4();
 
-    if (!validateNote)  {
+    if (!validateNote(req.body))  {
         res.status(400).send("This note is not formatted properly!");
-    } else {
+    } else { 
     const note = createNewNote(req.body, notes);
 
     res.json(note);
