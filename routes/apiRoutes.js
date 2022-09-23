@@ -1,7 +1,8 @@
 const { notes } = require('../db/db.json')
 const router = require('express').Router()
-const uuid = require('uuid');
+const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
+const createNewNote = require('../lib/notes')
 
 
 router.get('/notes', (req, res) => { // get the notes objects as a response
@@ -10,9 +11,11 @@ router.get('/notes', (req, res) => { // get the notes objects as a response
 })
 
 router.post('/notes', (req, res) => { //post request for new note
-    req.body.id = uuid().stringify();
+    req.body.id = uuidv4();
 
-    
+    const note = createNewNote(req.body, notes);
+
+    res.json(note)
 });
 
 module.exports = router;
