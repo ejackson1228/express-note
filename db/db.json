@@ -1,19 +1,24 @@
 {
   "notes": [
     {
-      "title": "Test Title",
-      "text": "Test text",
-      "id": "001"
+      "title": "First Note",
+      "text": "Testing application functionality",
+      "id": "9466064f-7ac8-472e-8b95-3d6772356332"
     },
     {
-      "title": "testing",
-      "text": "testing",
-      "id": "64be82f8-ef83-4083-baec-ff245bf413cb"
+      "title": "Second note",
+      "text": "Testing data handling for multiple notes",
+      "id": "4174b87e-7a97-4e5f-9a70-81d0dbd9dd9d"
     },
     {
-      "title": "testing2",
-      "text": "testing2",
-      "id": "72e0019a-054c-4601-8f36-cb08f817a3e3"
+      "title": "Third note",
+      "text": "Testing Consistency\n",
+      "id": "c5805bb1-fccc-46bf-970f-3cc9f74bc243"
+    },
+    {
+      "title": "Fourth Note",
+      "text": ".....",
+      "id": "19426844-74f2-4224-9e14-25e27a7e5ff1"
     }
   ]
 }
