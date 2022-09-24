@@ -2,7 +2,7 @@ const { notes } = require('../db/db.json')
 const router = require('express').Router();
 const { v4: uuidv4 } = require('uuid');
 const fs = require('fs');
-const { createNewNote, findById, validateNote } = require('../lib/notes')
+const { createNewNote, findById, validateNote, deleteNote } = require('../lib/notes')
 
 
 router.get('/notes', (req, res) => { // get the notes objects as a response
@@ -18,6 +18,12 @@ router.get('/notes/:id', (req, res) => {
         res.sendStatus(404);
     };
 });
+
+router.delete('/notes/:id', (req, res) => { // <<< :id is established in deleteNote() @ index.js line 45
+    deleteNote(req.body.id, notes);
+    
+    return res.json('Delete Confirmed');
+})
 
 router.post('/notes', (req, res) => { //post request for new note
     req.body.id = uuidv4();
