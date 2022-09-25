@@ -1,6 +1,12 @@
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)] 
 # <h1 align="center">express-note</h1>
 
+<img src="./public/assets/images/express-note-screenshot.jpg" alt="screenshot of application" width="450px" height="300px">
+<br>
+<br>
+
+<a href="">
+
 ## Description
 A note-taking app that uses persistent storage with express.js
   

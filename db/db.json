@@ -1,34 +1,19 @@
 {
   "notes": [
     {
-      "title": "gfewgf",
-      "text": "fgdsbgf",
-      "id": "c7de4e66-d2ad-4a53-8383-91f9de23cd79"
+      "title": "Hello Viewer!",
+      "text": "Welcome to Express-Note!",
+      "id": "870e98c3-4ef7-422e-ba48-a0717662c33c"
     },
     {
-      "title": "perhaps",
-      "text": "this time will work",
-      "id": "10366a12-90f1-4d7e-97b6-27a1c090965b"
+      "title": "Use Express-note",
+      "text": "Leave all your important reminders here!",
+      "id": "ed8b1a5d-b34a-4923-a80a-54353bf50252"
     },
     {
-      "title": "bgfd",
-      "text": "gbfdh",
-      "id": "64061933-75de-42ee-be1f-ead4dc3c4235"
-    },
-    {
-      "title": "gg",
-      "text": "gddgdgd",
-      "id": "095848f7-1d2f-4f4d-a27a-08a25e5656d2"
-    },
-    {
-      "title": "guuhtyyy",
-      "text": "ggfgdsvdsb",
-      "id": "ac87b091-b766-4d5a-9853-4359bc5cff92"
-    },
-    {
-      "title": "yes",
-      "text": "no",
-      "id": "2f684053-5f61-48e4-a627-d4ffcac92b71"
+      "title": "GoodBye",
+      "text": "!",
+      "id": "af2e31d5-d485-42f9-a8cc-d9aeb60c914e"
     }
   ]
 }
