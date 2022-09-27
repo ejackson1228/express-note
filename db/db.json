@@ -1,19 +1,14 @@
 {
   "notes": [
     {
-      "title": "Hello Viewer!",
-      "text": "Welcome to Express-Note!",
-      "id": "870e98c3-4ef7-422e-ba48-a0717662c33c"
-    },
-    {
       "title": "Use Express-note",
       "text": "Leave all your important reminders here!",
       "id": "ed8b1a5d-b34a-4923-a80a-54353bf50252"
     },
     {
-      "title": "GoodBye",
-      "text": "!",
-      "id": "af2e31d5-d485-42f9-a8cc-d9aeb60c914e"
+      "title": "hello",
+      "text": "hi",
+      "id": "8c93145c-d8ea-4b9e-8ec3-3ed218968877"
     }
   ]
 }
