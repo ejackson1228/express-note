@@ -6,13 +6,13 @@
 <br>
 <br>
 
-<a href="https://floating-mountain-82862.herokuapp.com/" alt="deployed heroku app">Link to Deployed Application</a>
+<a href="https://note-express.herokuapp.com/" alt="deployed heroku app">Link to Deployed Application</a>
 <br>
 <br>
 
 
 ## Description
-A note-taking app that uses persistent storage with express.js
+A personal note-taking app that uses persistent storage with a simple JSON file and express.js.
   
 ## Table of Contents
   - [Description](#description)
@@ -24,19 +24,25 @@ A note-taking app that uses persistent storage with express.js
   - [Questions](#questions)
 
 ## Installation
-npm init
+1. Clone or Fork this repository
+2. Install necessary packages
+3. run `npm start` to open application @ `localhost:3001`
+4. Add your own notes.
 
 ## Usage
-Run "npm start" in the CL and naviagate to your local host server.
+A simple personal note-taking app. 
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]This application is covered under the MIT license. (https://opensource.org/licenses/MIT)
 
 ## Contributors
-node.js, express.js, npm, Insomnia, uuidV4.
+- node.js
+- express.js
+- Insomnia
+- uuidV4 
 
 ## Tests
-Insomnia
+API testing done via Insomnia.
 
 ## Questions? Contact me:
 GitHub: https://github.com/ejackson1228/ <br>
