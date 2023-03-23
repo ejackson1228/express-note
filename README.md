@@ -36,10 +36,10 @@ A simple personal note-taking app.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]This application is covered under the MIT license. (https://opensource.org/licenses/MIT)
 
 ## Contributors
-- node.js
-- express.js
-- Insomnia
-- uuidV4 
+- node.js (https://nodejs.org/en)
+- express.js (https://expressjs.com/)
+- Insomnia (https://insomnia.rest/)
+- uuidV4 (https://www.npmjs.com/package/uuidv4)
 
 ## Tests
 API testing done via Insomnia.
